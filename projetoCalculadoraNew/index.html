@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora 2.0 </title>
+    <link rel="stylesheet" href="./assets/css/style.css" class="css">
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1 class="textoPrincipal"> Calculadora 2.0</h1>
+
+        <form action="/" id="formulario" method="post">
+
+            <h3 class="subTextoPri"> Informe Um Número </h1>
+
+                <label for="primeiroNumero"></label>
+                <input type="number" id="primeiroNumero" name="primeiroNumero">
+
+            <h3 class="subTextoSec"> Informe Um Outro Valor </h3>
+
+                <label for="outroNumero"></label>
+                <input type="number" id="outroNumero" name="outroNumero">
+
+            <button class="btnCalc">Calcular Somar</button>
+            <div id='resultado'></div>
+
+                <button class="btnSubtra">Calcular Subtração</button>
+                <div id='resultadosub'></div>
+
+                    <button class="btnDiv">Calcular Divisão</button>
+                    <div id='resultadodiv'></div> 
+        </form>
+
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
